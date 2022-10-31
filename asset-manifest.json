@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/React-PokeApi/static/css/main.087a7796.css",
-    "main.js": "/React-PokeApi/static/js/main.847cf659.js",
+    "main.css": "/React-PokeApi/static/css/main.10fe7b0e.css",
+    "main.js": "/React-PokeApi/static/js/main.8e68ace2.js",
+    "static/media/loading.gif": "/React-PokeApi/static/media/loading.c8928b6258bc97b4a148.gif",
     "static/media/840_560.jpeg": "/React-PokeApi/static/media/840_560.685e583a5da9ae0a77b8.jpeg",
     "static/media/logo3.jpg": "/React-PokeApi/static/media/logo3.f436dfe215519a054c9d.jpg",
     "index.html": "/React-PokeApi/index.html",
-    "main.087a7796.css.map": "/React-PokeApi/static/css/main.087a7796.css.map",
-    "main.847cf659.js.map": "/React-PokeApi/static/js/main.847cf659.js.map"
+    "main.10fe7b0e.css.map": "/React-PokeApi/static/css/main.10fe7b0e.css.map",
+    "main.8e68ace2.js.map": "/React-PokeApi/static/js/main.8e68ace2.js.map"
   },
   "entrypoints": [
-    "static/css/main.087a7796.css",
-    "static/js/main.847cf659.js"
+    "static/css/main.10fe7b0e.css",
+    "static/js/main.8e68ace2.js"
   ]
 }

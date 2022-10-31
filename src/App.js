@@ -17,7 +17,7 @@ function App() {
               <BrowserRouter basename='React-PokeApi'>
                 <Navbar></Navbar>           
                         <Routes>
-                            <Route path="/" element={<Home/>} end/>
+                            <Route path="/" element={<Home />} index/>
                             <Route path="/Pokemones" element={<Pokemones />} /> 
                             <Route path="/Pokemon/:name" element={<Pokemon />} /> 
                         </Routes>

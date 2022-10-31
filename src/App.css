@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.active {
+  text-decoration: underline;
+  color: white;
+  font-weight: bolder;
+}
+
+.no-active{
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+}
+.contener {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  width: 300px;
+  align-items: center;
+  margin: 0 auto;
+}

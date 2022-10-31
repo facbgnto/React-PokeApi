@@ -57,3 +57,11 @@
   align-items: center;
   margin: 0 auto;
 }
+
+.loading{
+  display:block;
+  margin:auto;
+  text-align: center;
+ 
+
+}

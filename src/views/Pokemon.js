@@ -2,6 +2,7 @@ import React, {useEffect, useState}from 'react'
 import { useParams } from 'react-router'
 import PokemonCars from '../Components/PokemonCars'
 import {fetchPokemon} from '../api'
+import loading from '../assets/img/loading.gif'
 
 function Pokemon() {
   const [dataPokemon, setDataPokemon] = useState();
@@ -18,7 +19,7 @@ function Pokemon() {
   return (
     <>
     {
-      !dataPokemon ?   <h2>Esperando Pokemon</h2> : <PokemonCars {...dataPokemon}> </PokemonCars>
+      !dataPokemon ?   <div className='loading'><img src={loading}></img> </div>: <PokemonCars {...dataPokemon}> </PokemonCars>
     }
     </>
     

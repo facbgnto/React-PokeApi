@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-              <BrowserRouter>
+              <BrowserRouter basename='React-PokeApi'>
                 <Navbar></Navbar>           
                         <Routes>
                             <Route path="/" element={<Home/>} end/>
